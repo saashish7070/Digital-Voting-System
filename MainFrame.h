@@ -7,7 +7,7 @@ public:
     MyFrame();
 
 private:
-    void OnHello(wxCommandEvent& event);
+    void OnHome(wxCommandEvent& event);
     void OnExit(wxCommandEvent& event);
     void OnAbout(wxCommandEvent& event);
 };

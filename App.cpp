@@ -2,6 +2,7 @@
 #include "MainFrame.h"
 #include <wx/wx.h>
 
+
 wxIMPLEMENT_APP(MyApp);
 
 bool MyApp::OnInit()
@@ -9,4 +10,4 @@ bool MyApp::OnInit()
     MyFrame* frame = new MyFrame();
     frame->Show(true);
     return true;
-}
+} 
